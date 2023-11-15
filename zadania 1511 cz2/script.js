@@ -45,4 +45,16 @@ const zad5 =()=>
     map.set('c',Math.pow(numbers[2],2)+3);
     map.set('d',Math.pow(numbers[3],2)+3);
     map.set('e',Math.pow(numbers[4],2)+3);
+    console.log(map);
+}
+
+const zad6 =()=>
+{
+    const arr3 = numbers.filter(zad6pomoc);
+    console.log(arr3);
+}
+
+const zad6pomoc =(a)=>
+{
+    return (a%2==0);
 }
